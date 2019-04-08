@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/gradient1">
+        <park_assistant.administrator.park_helper.view.buttom
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:text="@string/用户"
+            android:textColor="@color/op_less_write"
+            android:layout_marginTop="5dp"
+            android:onClick="onClick"
+            android:textSize="20dp"
+            android:id="@+id/show_user"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停车帮"
+            android:textSize="15dp"
+            android:textColor="@color/op_less_write"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

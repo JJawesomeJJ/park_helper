@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyStyle" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">50dp</item>//设置宽度
+        <item name="android:windowTitleBackgroundStyle">@drawable/cc</item> //设置背景风格，否则可能有边框
+    </style>
+</resources>

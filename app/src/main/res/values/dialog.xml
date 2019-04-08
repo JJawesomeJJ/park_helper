@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/opacity</item>
+        <item name="android:windowExitAnimation">@anim/rotate</item>
+    </style>
+</resources>
